@@ -1,0 +1,11 @@
+On Linux Ubuntu:
+1) Install Nvidia CUDA, git, bash, make, cmake, dpkg.
+Optional dependencies: 
+			-oneAPI, or libtbb2.
+
+2) use the run.sh file to create the "bin" directory.
+
+If you wish to install the content of the bin directory in the /usr/local folder, and you are sudoer, you can go in the "build" folder and call the command "sudo make install".
+
+
+			
